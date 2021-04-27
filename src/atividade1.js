@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './atividade1.css';
-
+import Kdu from './kdu';
 
 function Atividade1() {
 
@@ -38,7 +38,13 @@ function Atividade1() {
         </div>
       </div>
 
-     
+      <div className="Resultado_Atividade">
+        <div className="Resultados">
+          <button onClick={Kdu}> Veja autor </button>
+          
+        </div> 
+      </div>
+
 
     </div>
   );
